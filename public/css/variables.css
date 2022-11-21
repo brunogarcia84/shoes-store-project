@@ -1,0 +1,32 @@
+:root {
+  --bg_primary: #e5e5e5;
+  --bg_secondary: #c2185b;
+  --fg_primary: #000000;
+  --fg_primary__alt: #777777;
+  --fg_secondary: #ffffff;
+
+  --container_width: 70vw;
+  --container_height: 70vh;
+  --size_xs: 0.6rem;
+  --size_sm: 0.8rem;
+  --size_md: 1rem;
+  --size_lg: 2rem;
+  --size_xl: 3rem;
+  --size_xxl: 4rem;
+
+  --size_bigger_xs: 1rem;
+  --size_bigger_sm: 1.5rem;
+  --size_bigger_md: 2rem;
+  --size_bigger_lg: 3rem;
+  --size_bigger_xl: 5rem;
+  --size_bigger_xxl: 8rem;
+
+  --thin: 100;
+  --light: 300;
+  --medium: 500;
+  --black: 900;
+
+  --breakpoint_mobile: 768px;
+  --breakpoint_tablet: 1023px;
+  --breakpoint_desktop: 1024px;
+}
