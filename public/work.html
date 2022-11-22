@@ -23,15 +23,19 @@
       </nav>
     </header>
 
+    <header class="form_work__header">
+      <h1>Be a part of our tem</h1>
+    </header>
+
     <main class="form_work">
-      <header class="form_work__header">
-        <h1>Be a part of our tem</h1>
-      </header>
       <form action="#" method="POST">
-        <label for="name">Name</label><br />
+        <label for="name">Name</label> <br /><br />
         <input type="text" id="name" name="name" placeholder="John Doe" />
 
-        <label for="email">Email</label><br />
+        <br /><br />
+
+        <label for="email">Email</label>
+        <br /><br />
         <input
           type="email"
           id="email"
@@ -39,7 +43,10 @@
           placeholder="johndoe@gmail.com"
         />
 
-        <label for="phone">Phone</label><br />
+        <br /><br />
+
+        <label for="phone">Phone</label>
+        <br /><br />
         <input
           type="tel"
           id="phone"
@@ -47,7 +54,10 @@
           placeholder="+1(555) 555-5555"
         />
 
-        <label for="departments">Departments</label><br />
+        <br /><br />
+
+        <label for="departments">Departments</label>
+        <br /><br />
         <select name="departments" id="departments">
           <option value="dept1">Department 1</option>
           <option value="dept2">Department 2</option>
@@ -56,21 +66,41 @@
           <option value="dept5">Department 5</option>
         </select>
 
-        <label for="availability">Your availability</label><br />
-        <input type="checkbox" name="availability" value="Full Time (8h)" />
-        <input type="checkbox" name="availability" value="Part Time (4h)" />
-        <input type="checkbox" name="availability" value="Freelancer" />
+        <br /><br />
+
+        <label for="availability"
+          >Your availability <br /><br />
+          <input type="checkbox" name="availability" value="Full Time (8h)" />
+          <span class="descriptions">Full-Time</span>
+          <input type="checkbox" name="availability" value="Part Time (4h)" />
+          <span class="descriptions">Part-Time</span>
+          <input type="checkbox" name="availability" value="Freelancer" />
+          <span class="descriptions">Freelancer</span>
+        </label>
+
+        <br /><br />
 
         <label for="contact">Tell us how to reach you out!</label>
+        <br /><br />
         <input type="radio" name="contact" value="Email" />
+        <span class="descriptions">E-mail</span>
         <input type="radio" name="contact" value="Phone" />
+        <span class="descriptions">Phone</span>
         <input type="radio" name="contact" value="WhatsApp" />
+        <span class="descriptions">Whatsapp</span>
+
+        <br /><br />
 
         <label for="comment">Your message:</label>
+        <br /><br />
         <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+
+        <br /><br />
 
         <label for="resume">Resume:</label>
         <input type="file" name="resume" value="upload" />
+
+        <br /><br />
 
         <input type="submit" value="Submit" />
       </form>
@@ -84,6 +114,8 @@
           vai girarzis!
         </p>
 
+        <br />
+
         <p>
           Suco de cevadiss deixa as pessoas mais interessantis.Mauris nec dolor
           in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis
@@ -91,12 +123,16 @@
           quem é amistosis quis leo.
         </p>
 
+        <br />
+
         <p>
           Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo
           pose.Leite de capivaris, leite de mula manquis sem cabeça.In elementis
           mé pra quem é amistosis quis leo.Praesent vel viverra nisi. Mauris
           aliquet nunc non turpis scelerisque, eget.
         </p>
+
+        <br />
 
         <p>
           Viva Forevis aptent taciti sociosqu ad litora torquent.A ordem dos
@@ -108,7 +144,7 @@
     </main>
 
     <footer>
-      <article>
+      <section>
         <img
           src="./img/shoes-logo-white-3 1.png"
           alt="White logo - Shoes Store"
@@ -118,7 +154,7 @@
           ipsam sequi minima eius enim quibusdam nulla, magni repellendus
           placeat.
         </p>
-      </article>
+      </section>
 
       <nav class="footer_nav_categories">
         <ul>
@@ -130,7 +166,7 @@
         </ul>
       </nav>
 
-      <nav>
+      <nav class="footer_nav_categories">
         <ul>
           <li>Institutional</li>
           <li><a href="#">About us</a></li>
