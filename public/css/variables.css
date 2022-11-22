@@ -21,10 +21,10 @@
   --size_bigger_xl: 5rem;
   --size_bigger_xxl: 8rem;
 
-  --thin: 100;
   --light: 300;
-  --medium: 500;
-  --black: 900;
+  --regular: 400;
+  --semiBold: 600;
+  --extraBold: 800;
 
   --breakpoint_mobile: 768px;
   --breakpoint_tablet: 1023px;
