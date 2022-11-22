@@ -77,12 +77,69 @@ nav > ul > li > a:hover {
   background-color: var(--bg_primary);
   color: var(--fg_primary);
   font-weight: var(--semiBold);
+  padding-bottom: var(--size_md);
 }
 
 .dicounts_block__all_discounts > h4,
 span {
   font-size: var(--size_sm);
   padding: 0.6rem var(--size_sm);
+}
+
+.product_highlight {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.product_highlight__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--size_lg);
+  font-weight: var(--semiBold);
+  padding: var(--size_bigger_xxl);
+}
+
+.product_highlight__header a {
+  display: inline;
+  background-color: var(--bg_secondary);
+  color: var(--fg_secondary);
+  margin: var(--size_lg) 0;
+  text-align: center;
+  padding: var(--size_md);
+  width: 50%;
+}
+
+.product_highlight_header__left_image {
+  margin-top: var(--size_xxl);
+}
+
+footer {
+  background-color: var(--bg_secondary);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size_xl);
+}
+
+footer > section {
+  width: 20%;
+}
+
+.footer_nav_categories ul {
+  display: inline-block;
+  line-height: var(--size_xs);
+}
+
+.footer_nav_categories li {
+  color: white;
+  font-size: var(--size_md);
+}
+
+.footer_nav_categories a {
+  font-weight: var(--light);
 }
 
 @media screen and (max-width: 768px) {
@@ -133,5 +190,50 @@ span {
 
   .discounts_block > article {
     margin: var(--size_lg);
+  }
+
+  .product_highlight {
+    display: block;
+  }
+
+  .product_highlight__header {
+    display: block;
+    font-size: var(--size_lg);
+    padding: var(--size_md);
+    text-align: center;
+  }
+
+  .product_highlight__header a {
+    display: block;
+    font-size: var(--size_md);
+    margin: var(--size_md) auto;
+    text-align: center;
+  }
+
+  .product_highlight_header__image img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .first_image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: var(--size_xs);
+  }
+
+  .second_image {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: var(--size_sm);
+  }
+
+  footer {
+    margin-top: var(--size_md);
+  }
+
+  footer > section {
+    width: 100%;
   }
 }
