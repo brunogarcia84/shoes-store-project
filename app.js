@@ -31,8 +31,8 @@ app.post("/routes", (req, res) => {
     resume: req.body.resume,
   };
 
-  console.log(data);
   const sql = "INSERT INTO resume SET ?";
+
   const query = db.query(sql, data, (error, result) => {
     if (error) throw error;
     console.log(result);
