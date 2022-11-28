@@ -32,6 +32,12 @@ input[type="submit"] {
   padding: var(--size_xs);
 }
 
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: var(--bg_secondary);
+  font-weight: var(--semiBold);
+}
+
 .text {
   width: 50%;
   line-height: var(--size_lg);

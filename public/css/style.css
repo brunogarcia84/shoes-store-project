@@ -32,6 +32,20 @@ nav > ul > li > a:hover {
   cursor: pointer;
 }
 
+.note {
+  background-color: var(--bg_secondary);
+  width: 100%;
+}
+
+.note h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--fg_secondary);
+  font-size: var(--size_lg);
+  font-weight: var(--semiBold);
+  padding: var(--size_md);
+}
+
 .hero > figure > img {
   width: 100%;
 }
